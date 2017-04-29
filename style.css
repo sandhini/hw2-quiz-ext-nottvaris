@@ -1,1 +1,101 @@
-/* TODO(you): Write the CSS to finish the assignment! */
+
+
+@media (max-width: 700px){ 
+	article{
+		width:95%;
+	}
+
+	header div{
+		visibility: hidden;
+	}
+
+}
+
+
+@media (max-width: 500px){ 
+
+	section.choice-grid div{
+		width: 49%;
+	}
+	/*.choice-grid div{
+		width: 49%;
+	}*/
+}
+
+
+
+.choice-grid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-shrink: 1;
+
+}
+
+.choice-grid div {
+	width: 32.5%;
+	margin-bottom: 20px;
+	padding:10px;
+	box-sizing: border-box;
+	border: 1px solid #dcdcdc;
+	background-color: #f4f4f4;
+	flex-shrink: 1;
+}
+
+.choice-grid div img {
+	display: flex;
+	flex-shrink: 1;
+	width: 100%;
+
+}
+
+section#last-choice-grid{
+	margin-bottom: 40px;
+}
+
+section.results{
+	padding: 20px 20px;
+	margin: auto;
+}
+
+h1{
+	font-size: 30px;
+	margin: 0;
+}
+
+h2{
+	display: flex;
+	font-size: 20px;
+	justify-content: center;
+	align-items: center;
+	background-color: #cecece;
+	height: 50px;
+	margin: 0;
+}
+
+#restart:hover{
+    background-color:#e0e0e0;
+}
+
+h2:hover{
+	 background-color:#e0e0e0;
+
+}
+
+div.hidden{
+	display: flex;
+	display: none;
+	height: 50px;
+	/*background-color: #cecece;*/
+}
+
+
+
+/*div.restart{
+	height: 50px;
+	background-color: #cecece;
+}*/
+
+/*[data-choice-id='one']{
+	background-color: #cfe3ff;
+}*/
